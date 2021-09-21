@@ -1,0 +1,72 @@
+.menuList ul li {
+  list-style: none;
+}
+.menuList {
+  display: flex;
+  margin: 2rem 1rem;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+
+.menu-item {
+  flex: 25%;
+  background-color: rgb(238, 238, 238);
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.menu-item ul li span {
+  font-weight: 600;
+  margin-right: 0.3rem;
+}
+
+.action-btn {
+  margin-top: 1rem;
+}
+.action-btn button {
+  margin-right: 0.4rem;
+  padding: 0.5rem;
+}
+
+.add-menu form input {
+  margin: 1rem;
+  width: 50%;
+}
+
+.menu-item img {
+  height: 150px;
+  width: auto;
+}
+
+.calculator {
+  text-align: right;
+}
+
+.menu-lists table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.menu-lists table td,
+th {
+  border: none;
+  text-align: center;
+  padding: 8px;
+}
+
+.menu-lists span {
+  margin: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.btn-action {
+  font-weight: 900;
+}
+
+table tfoot {
+  margin: 2rem 0;
+  font-size: 2rem;
+  border-top: 1px solid grey;
+}
